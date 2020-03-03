@@ -1,0 +1,22 @@
+.container {
+  background-color: #ccc;
+}
+
+.full-bar {
+  background-color: white;
+  border-width: thin;
+  border-color: black;
+  border-style: solid;
+  width: 100%;
+  min-width: 200px;
+}
+
+.health-value-display {
+  font-size: 32px;
+  text-align: center;
+	background-color: #ccc;
+}
+
+.solid-bar {
+  height: 25px;
+}

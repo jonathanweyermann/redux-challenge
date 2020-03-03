@@ -1,0 +1,285 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`machines component renders 4 machines 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Connect(Machines)
+    history={
+      Object {
+        "action": "POP",
+        "length": 5,
+        "location": Object {
+          "hash": "",
+          "key": "ybxgrt",
+          "pathname": "/machines",
+          "search": "",
+        },
+      }
+    }
+  >
+    <Machines
+      getMachines={[Function]}
+      history={
+        Object {
+          "action": "POP",
+          "length": 5,
+          "location": Object {
+            "hash": "",
+            "key": "ybxgrt",
+            "pathname": "/machines",
+            "search": "",
+          },
+        }
+      }
+      machines={
+        Object {
+          "machine": Object {
+            "name": "",
+          },
+          "machines": Array [
+            Object {
+              "health": 84,
+              "id": "99ade105-dee1-49eb-8ac4-e4d272f89fba",
+              "ip_address": "127.0.0.31",
+              "name": "Machine X",
+            },
+            Object {
+              "health": 95,
+              "id": "4111947a-6c58-4977-90fa-2caaaef88648",
+              "ip_address": "127.0.0.4",
+              "name": "Machine 2",
+            },
+            Object {
+              "health": 2,
+              "id": "57342663-909c-4adf-9829-6dd1a3aa9143",
+              "ip_address": "127.0.0.55",
+              "name": "Machine 3",
+            },
+            Object {
+              "health": 22,
+              "id": "5632e1ec-46cb-4895-bc8b-a91644568cd5",
+              "ip_address": "127.0.0.3",
+              "name": "Machine 4",
+            },
+          ],
+          "name": "",
+        }
+      }
+    >
+      <ForwardRef
+        striped={true}
+      >
+        <table
+          className="table table-striped"
+        >
+          <thead>
+            <tr>
+              <th>
+                Name
+              </th>
+              <th
+                colSpan="2"
+              >
+                IP Address
+              </th>
+              <th
+                colSpan="2"
+              >
+                Health
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr
+              key="99ade105-dee1-49eb-8ac4-e4d272f89fba"
+              onClick={[Function]}
+            >
+              <td>
+                Machine X
+              </td>
+              <td
+                colSpan="2"
+              >
+                127.0.0.31
+              </td>
+              <td
+                colSpan="2"
+              >
+                <Health
+                  value={84}
+                >
+                  <div
+                    className="container"
+                    style={
+                      Object {
+                        "padding": 0,
+                      }
+                    }
+                  >
+                    <div
+                      className="full-bar"
+                    >
+                      <div
+                        className="solid-bar"
+                        data-testid="solid-bar"
+                        style={
+                          Object {
+                            "backgroundColor": "#5cb85c",
+                            "width": "calc(100% * 0.84)",
+                          }
+                        }
+                      />
+                    </div>
+                  </div>
+                </Health>
+              </td>
+            </tr>
+            <tr
+              key="4111947a-6c58-4977-90fa-2caaaef88648"
+              onClick={[Function]}
+            >
+              <td>
+                Machine 2
+              </td>
+              <td
+                colSpan="2"
+              >
+                127.0.0.4
+              </td>
+              <td
+                colSpan="2"
+              >
+                <Health
+                  value={95}
+                >
+                  <div
+                    className="container"
+                    style={
+                      Object {
+                        "padding": 0,
+                      }
+                    }
+                  >
+                    <div
+                      className="full-bar"
+                    >
+                      <div
+                        className="solid-bar"
+                        data-testid="solid-bar"
+                        style={
+                          Object {
+                            "backgroundColor": "#5cb85c",
+                            "width": "calc(100% * 0.95)",
+                          }
+                        }
+                      />
+                    </div>
+                  </div>
+                </Health>
+              </td>
+            </tr>
+            <tr
+              key="57342663-909c-4adf-9829-6dd1a3aa9143"
+              onClick={[Function]}
+            >
+              <td>
+                Machine 3
+              </td>
+              <td
+                colSpan="2"
+              >
+                127.0.0.55
+              </td>
+              <td
+                colSpan="2"
+              >
+                <Health
+                  value={2}
+                >
+                  <div
+                    className="container"
+                    style={
+                      Object {
+                        "padding": 0,
+                      }
+                    }
+                  >
+                    <div
+                      className="full-bar"
+                    >
+                      <div
+                        className="solid-bar"
+                        data-testid="solid-bar"
+                        style={
+                          Object {
+                            "backgroundColor": "#D9534F",
+                            "width": "calc(100% * 0.02)",
+                          }
+                        }
+                      />
+                    </div>
+                  </div>
+                </Health>
+              </td>
+            </tr>
+            <tr
+              key="5632e1ec-46cb-4895-bc8b-a91644568cd5"
+              onClick={[Function]}
+            >
+              <td>
+                Machine 4
+              </td>
+              <td
+                colSpan="2"
+              >
+                127.0.0.3
+              </td>
+              <td
+                colSpan="2"
+              >
+                <Health
+                  value={22}
+                >
+                  <div
+                    className="container"
+                    style={
+                      Object {
+                        "padding": 0,
+                      }
+                    }
+                  >
+                    <div
+                      className="full-bar"
+                    >
+                      <div
+                        className="solid-bar"
+                        data-testid="solid-bar"
+                        style={
+                          Object {
+                            "backgroundColor": "#D9534F",
+                            "width": "calc(100% * 0.22)",
+                          }
+                        }
+                      />
+                    </div>
+                  </div>
+                </Health>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </ForwardRef>
+    </Machines>
+  </Connect(Machines)>
+</Provider>
+`;

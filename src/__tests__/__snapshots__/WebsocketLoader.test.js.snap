@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`blank component creates snapshot 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Connect(WebsocketLoader)
+    history={
+      Object {
+        "action": "POP",
+        "length": 5,
+        "location": Object {
+          "hash": "",
+          "key": "ybxgrt",
+          "pathname": "/machines/99ade105-dee1-49eb-8ac4-e4d272f89fba",
+          "search": "",
+        },
+      }
+    }
+  >
+    <WebsocketLoader
+      getMachines={[Function]}
+      history={
+        Object {
+          "action": "POP",
+          "length": 5,
+          "location": Object {
+            "hash": "",
+            "key": "ybxgrt",
+            "pathname": "/machines/99ade105-dee1-49eb-8ac4-e4d272f89fba",
+            "search": "",
+          },
+        }
+      }
+      machines={
+        Object {
+          "machine": Object {
+            "name": "",
+          },
+          "machines": Array [
+            Object {
+              "health": 84,
+              "id": "99ade105-dee1-49eb-8ac4-e4d272f89fba",
+              "ip_address": "127.0.0.31",
+              "name": "dfdf",
+            },
+            Object {
+              "health": 95,
+              "id": "4111947a-6c58-4977-90fa-2caaaef88648",
+              "ip_address": "127.0.0.4",
+              "name": "Machine 2",
+            },
+            Object {
+              "health": 2,
+              "id": "57342663-909c-4adf-9829-6dd1a3aa9143",
+              "ip_address": "127.0.0.55",
+              "name": "Machine 3",
+            },
+            Object {
+              "health": 22,
+              "id": "5632e1ec-46cb-4895-bc8b-a91644568cd5",
+              "ip_address": "127.0.0.3",
+              "name": "Machine 4",
+            },
+          ],
+          "name": "",
+        }
+      }
+      updateMachinesLocally={[Function]}
+    />
+  </Connect(WebsocketLoader)>
+</Provider>
+`;

@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`health component creates a high health snapshot 1`] = `
+<Health
+  displayValue={true}
+  value={88}
+>
+  <div
+    className="container"
+    style={
+      Object {
+        "padding": 0,
+      }
+    }
+  >
+    <div
+      className="health-value-display"
+    >
+      88
+    </div>
+    <div
+      className="full-bar"
+    >
+      <div
+        className="solid-bar"
+        data-testid="solid-bar"
+        style={
+          Object {
+            "backgroundColor": "#5cb85c",
+            "width": "calc(100% * 0.88)",
+          }
+        }
+      />
+    </div>
+  </div>
+</Health>
+`;
+
+exports[`health component creates a high health snapshot with no display number 1`] = `
+<Health
+  value={88}
+>
+  <div
+    className="container"
+    style={
+      Object {
+        "padding": 0,
+      }
+    }
+  >
+    <div
+      className="full-bar"
+    >
+      <div
+        className="solid-bar"
+        data-testid="solid-bar"
+        style={
+          Object {
+            "backgroundColor": "#5cb85c",
+            "width": "calc(100% * 0.88)",
+          }
+        }
+      />
+    </div>
+  </div>
+</Health>
+`;
+
+exports[`health component creates a low health snapshot 1`] = `
+<Health
+  displayValue={true}
+  value={42}
+>
+  <div
+    className="container"
+    style={
+      Object {
+        "padding": 0,
+      }
+    }
+  >
+    <div
+      className="health-value-display"
+    >
+      42
+    </div>
+    <div
+      className="full-bar"
+    >
+      <div
+        className="solid-bar"
+        data-testid="solid-bar"
+        style={
+          Object {
+            "backgroundColor": "#D9534F",
+            "width": "calc(100% * 0.42)",
+          }
+        }
+      />
+    </div>
+  </div>
+</Health>
+`;
+
+exports[`health component creates a medium health snapshot 1`] = `
+<Health
+  displayValue={true}
+  value={65}
+>
+  <div
+    className="container"
+    style={
+      Object {
+        "padding": 0,
+      }
+    }
+  >
+    <div
+      className="health-value-display"
+    >
+      65
+    </div>
+    <div
+      className="full-bar"
+    >
+      <div
+        className="solid-bar"
+        data-testid="solid-bar"
+        style={
+          Object {
+            "backgroundColor": "#f0ad4e",
+            "width": "calc(100% * 0.65)",
+          }
+        }
+      />
+    </div>
+  </div>
+</Health>
+`;

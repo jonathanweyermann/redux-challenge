@@ -4,27 +4,43 @@
 	"private": true,
 	"dependencies": {
 		"@testing-library/jest-dom": "^4.2.4",
-		"@testing-library/react": "^9.4.0",
 		"@testing-library/user-event": "^7.2.1",
+		"axios": "^0.19.2",
+		"bootstrap": "^4.4.1",
+		"circular-json": "^0.5.9",
+		"prop-types": "^15.7.2",
 		"react": "^16.12.0",
+		"react-bootstrap": "^1.0.0-beta.17",
 		"react-dom": "^16.12.0",
+		"react-redux": "^7.2.0",
 		"react-router-dom": "5.1.2",
 		"react-scripts": "3.3.0",
+		"redux": "^4.0.5",
+		"redux-thunk": "^2.3.0",
 		"ws": "^7.2.1"
 	},
 	"devDependencies": {
 		"@koa/cors": "3.0.0",
+		"@testing-library/react": "^9.4.1",
 		"babel-eslint": "^10.0.3",
+		"chai": "^4.2.0",
+		"enzyme": "^3.10.0",
+		"enzyme-adapter-react-16": "^1.15.1",
 		"eslint": "^6.8.0",
+		"jest-enzyme": "^7.1.2",
+		"jest-styled-components": "^7.0.0",
 		"koa": "^2.11.0",
 		"koa-bodyparser": "^4.2.1",
-		"koa-router": "^8.0.6"
+		"koa-router": "^8.0.6",
+		"redux-mock-store": "^1.5.4",
+		"sinon": "^7.5.0",
+		"xhr-mock": "^2.5.0"
 	},
 	"scripts": {
 		"server": "node server/index.js",
 		"start": "EXTEND_ESLINT=true react-scripts start",
 		"build": "EXTEND_ESLINT=true react-scripts build",
-		"test": "react-app-rewired test"
+		"test": "EXTEND_ESLINT=true react-scripts test"
 	},
 	"browserslist": {
 		"production": [

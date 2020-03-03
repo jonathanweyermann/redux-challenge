@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Main page shows a blank page except for some links 1`] = `
+<App>
+  <Provider
+    store={
+      Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+        Symbol(observable): [Function],
+      }
+    }
+  >
+    <Connect(WebsocketLoader)>
+      <WebsocketLoader
+        getMachines={[Function]}
+        machines={
+          Object {
+            "machines": Array [],
+            "name": "",
+          }
+        }
+        updateMachinesLocally={[Function]}
+      />
+    </Connect(WebsocketLoader)>
+    <Router
+      history={
+        Object {
+          "action": "POP",
+          "block": [Function],
+          "createHref": [Function],
+          "go": [Function],
+          "goBack": [Function],
+          "goForward": [Function],
+          "length": 1,
+          "listen": [Function],
+          "location": Object {
+            "hash": "",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+          "push": [Function],
+          "replace": [Function],
+        }
+      }
+    >
+      <div
+        className="App"
+      >
+        <header
+          className="App-header"
+        >
+          <img
+            alt="logo"
+            height="272"
+            src="https://i.imgur.com/jcvsFKh.png"
+            width="800"
+          />
+        </header>
+        <nav
+          className="App-nav"
+        >
+          <Link
+            to="/"
+          >
+            <LinkAnchor
+              href="/"
+              navigate={[Function]}
+            >
+              <a
+                href="/"
+                onClick={[Function]}
+              >
+                Home
+              </a>
+            </LinkAnchor>
+          </Link>
+          <Link
+            to="/machines"
+          >
+            <LinkAnchor
+              href="/machines"
+              navigate={[Function]}
+            >
+              <a
+                href="/machines"
+                onClick={[Function]}
+              >
+                Machines
+              </a>
+            </LinkAnchor>
+          </Link>
+        </nav>
+        <Switch />
+      </div>
+    </Router>
+  </Provider>
+</App>
+`;
